@@ -1,0 +1,26 @@
+{
+  "name": "geometry.js",
+  "version": "1.0.0",
+  "description": "A geometry JavaScript library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "point": "parcel example/point.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryouaki/geometry.mkbug.com.git"
+  },
+  "keywords": [
+    "geometry"
+  ],
+  "author": "ryouaki (46517115@qq.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryouaki/geometry.mkbug.com/issues"
+  },
+  "homepage": "https://github.com/ryouaki/geometry.mkbug.com#readme",
+  "dependencies": {
+    "parcel": "*"
+  }
+}
