@@ -1,2 +1,2 @@
-# geometric.mkbug.com
-a JavaScript geometric library
+# geometry.mkbug.com
+a JavaScript geometry library
