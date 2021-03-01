@@ -20,8 +20,10 @@
     "url": "https://github.com/ryouaki/geometry.mkbug.com/issues"
   },
   "homepage": "https://github.com/ryouaki/geometry.mkbug.com#readme",
-  "dependencies": {
-    "bignumber.js": "^9.0.1",
+  "devDependencies": {
     "parcel": "*"
+  },
+  "peerDependencies": {
+    "bignumber.js": "^9.0.1"
   }
 }
