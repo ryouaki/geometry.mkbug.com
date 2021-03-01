@@ -1,3 +1,11 @@
 const pointToPoint = require('./../lib/pointToPoint')
+const pointToLine = require('./../lib/pointToLine')
+const pointOnLine = require('./../lib/pointOnLine')
 
 console.log('pointToPoint: '+ Math.pow(pointToPoint(1, 1, 0, 0), 2) + " = " + (Math.pow(1, 2) + Math.pow(1, 2)))
+console.log('pointToLine1: '+ pointToLine(1, 1, 0, 1, 0, 0) + "=" + 1)
+console.log('pointToLine3: '+ pointToLine(3, 2, 0, 1, 0, 0) + "=" + 3)
+console.log('pointToLine3: '+ pointToLine(3, 2, 0, 1, 0.5, 0.5) + "=" + 3)
+console.log('pointToLine2: '+ pointToLine(1, 0, 0, 1, 0.2, -0.8) + "=" + -1)
+console.log('pointOnLine1: '+ pointOnLine(1, 0, 0, 1, 0.2, -0.8) + "=" + false)
+console.log('pointOnLine2: '+ pointOnLine(0.5, 0.5, 1, 0, 0, 1) + "=" + true)
